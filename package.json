@@ -1,0 +1,51 @@
+{
+  "name": "@kazuph/mcp-obsidian-remote",
+  "version": "0.1.0",
+  "description": "MCP client for Obsidian Local REST API with network support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-obsidian-remote": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "mcp",
+    "obsidian",
+    "model-context-protocol",
+    "claude",
+    "rest-api"
+  ],
+  "author": "kazuph",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazuph/mcp-obsidian-remote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kazuph/mcp-obsidian-remote/issues"
+  },
+  "homepage": "https://github.com/kazuph/mcp-obsidian-remote#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.8.0",
+    "axios": "^1.7.0",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
