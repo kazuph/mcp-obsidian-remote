@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kazuph-mcp-obsidian-remote-badge.png)](https://mseep.ai/app/kazuph-mcp-obsidian-remote)
+
 # MCP Obsidian Remote
 
 A Model Context Protocol (MCP) client that connects to Obsidian Local REST API, with an embedded Rust-based API server as an alternative implementation.
